@@ -1,0 +1,959 @@
+/*  
+Theme Name: Katlan
+Description: Katlan - Multipurpose WordPress Theme is a child theme of Lakshmi Lite with all features You need. With Unyson and Lakshmi features plugins, You can create sliders, use customizer options, unique shortcodes with page builder and import the premade demo with one click. Imagine Your website and build it with Katlan. Build Your site with the highly customizable responsive elements. If You would make something big, try Katlan Pro with more elements and special functions.
+ 
+Version: 1.0.1
+Author: webzakt
+Author URI: http://webzakt.com/
+Theme URI: http://webzakt.com/themes/katlan-multipurpose-wordpress-theme
+Template: lakshmi-lite
+Text Domain: katlan
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: one-column, two-columns, custom-menu, custom-header, custom-background, theme-options
+*/
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+.container {
+    margin: 0px auto;
+    width: auto;
+    max-width: 1170px;
+}
+.row {
+    margin-right: auto;
+    margin-left: auto;
+}
+.rbt-title {
+    color: #ffffff;
+    margin-bottom: 0;
+    line-height: 50px;
+}
+/* Featured Posts */
+
+#lsi-secondary-header #lsi-sh-custom {
+    padding: 8px 10px 8px 0;
+}
+#lsi-secondary-header #lsi-sh-social {
+    padding: 8px 0;
+}
+#lsi-featured-post-holder .lsi-fp-content-h {
+    text-align: left;
+}
+#lsi-featured-post-holder .lsi-fp-content {
+    margin-top: 40%;
+}
+#lsi-featured-post-holder .lsi-fp-content h2 {
+    padding: 10px 5px 0;
+    font-family: 'Open Sans';
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #ececea !important;
+    letter-spacing: 5px;
+    text-shadow: -1px 2px 1px #4e4a3e;
+    margin: 0;
+}
+
+#lsi-featured-post-holder .lsi-fp-content h2 span {
+    padding: 10px 5px;
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #ececea !important;
+    letter-spacing: 3px;
+    text-shadow: -1px 0 1px #4e4a3e;
+}
+
+#lsi-featured-post-holder .lsi-fp-content p {
+    padding: 10px 5px;
+	font-family: 'Open Sans';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #ececea !important;
+	letter-spacing: 0px;
+	text-shadow: -1px 1px 1px #4e4a3e;
+    margin: 0;
+}
+
+#lsi-featured-post-holder .lsi-fp-button {
+    font-family: 'Open Sans';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #ececea !important;
+	letter-spacing: 0px;
+	background: #4e4a3e;
+	border-radius: 2px;
+}
+.lsi-cta-fp .lsi-cta-cover i {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+/* Header Styles */
+
+#lsi-logo #lsi-logo-text a {
+	font-family: 'Open Sans';
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 30px;
+	letter-spacing: 0px;
+	color: #ececea;
+}
+
+#lsi-logo #lsi-logo-text a:hover {
+	color: #c7c6c1;
+}
+
+#lsi-logo #lsi-logo-tagline {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 14px;
+	letter-spacing: 0px;
+	color: #ececea;
+}
+#lsi-header-buttons .lsi-btn-hb,
+#lsi-hb-search,
+#lsi-hb-cart {
+	background: #ececea;
+    color: #4e4a3e !important;
+}
+
+#lsi-header-buttons .lsi-btn-hb:hover {
+	color: #4e4a3e !important;
+}
+
+#lsi-header-buttons .lsi-btn-overlay {
+	background: #ffffff;
+}
+
+#lsi-header-buttons .lsi-btn-content {
+	font-family: 'Open Sans';
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0px;
+}
+#lsi-header-navigation li a,
+#lsi-toggleMenu {
+	font-family: 'Open Sans';
+	font-size: 19px;
+	font-weight: 600;
+	line-height: 19px;
+	color: #ececea;
+	letter-spacing: 0px;
+	text-transform: uppercase;
+		-webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+#lsi-header-navigation li:hover {
+	background-color: rgba(255,255,255,0);
+}
+
+#lsi-header-navigation li:hover a {
+	color: #c7c6c1;
+	text-decoration: none;}
+
+#lsi-header-navigation li.current-menu-item,
+#lsi-header-navigation li.current-menu-ancestor {
+	background-color: rgba(255,255,255,0);
+}
+
+#lsi-header-navigation li.current-menu-item a,
+#lsi-header-navigation li.current-menu-ancestor a {
+	color: #c7c6c1;
+}
+
+#lsi-header-navigation ul ul {
+    background-color: #4e4a3e;
+	margin-top: 37px;
+}
+#lsi-header-navigation ul ul li a {
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 16px;
+	color: #ececea !important;
+	letter-spacing: 0px;
+	text-transform: none;
+	}
+
+#lsi-header-navigation ul .mega-menu ul li {
+	color: #ececea !important;
+}
+
+#lsi-header-navigation ul ul li {
+	background-color: rgba(255,255,255,0);
+	padding: 10px 10px 10px 10px;
+}
+#lsi-header-navigation ul .mega-menu ul li a {
+    padding: 0 0 10px;
+}
+#lsi-header-navigation ul ul li:hover {
+	background-color: rgba(255,255,255,0);
+}
+
+#lsi-header-navigation ul ul li:hover a,
+#lsi-header-navigation ul ul ul li:hover a {
+	color: #c7c6c1 !important;
+	text-decoration: none;
+}
+
+#lsi-header-navigation ul ul li:hover ul li:hover a {
+	color: #c7c6c1 !important;
+}
+
+#lsi-header-navigation ul ul li.current-menu-item,
+#lsi-header-navigation ul ul li.current-menu-ancestor,
+#lsi-header-navigation ul ul ul li.current-menu-item,
+#lsi-header-navigation ul ul ul li.current-menu-ancestor {
+	background-color: rgba(255,255,255,0);
+}
+
+#lsi-header-navigation ul ul li.current-menu-item a,
+#lsi-header-navigation ul ul li.current-menu-ancestor a,
+#lsi-header-navigation ul ul li.current-menu-ancestor ul li.current-menu-item a {
+	color: #c7c6c1 !important;
+}
+
+#lsi-header-navigation ul ul li.current-menu-item ul a,
+#lsi-header-navigation ul ul li.current-menu-ancestor ul a,
+#lsi-header-navigation ul ul li:hover ul a {
+	color: #ececea !important;
+}
+#lsi-mobile-navigation {
+	background: #4e4a3e;
+}
+
+#lsi-mobile-navigation li {
+	padding: 5px 5px;
+}
+
+#lsi-mobile-navigation li a {
+	font-family: 'Open Sans';
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 17px;
+	color: #ececea !important;
+	letter-spacing: 0px;
+}
+
+#lsi-mobile-navigation li a:hover {
+	color: #c7c6c1 !important;
+}
+#lsi-secondary-header {
+	padding: 0;
+	font-family: 'Open Sans';
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 17px;
+	color: #ececea !important;
+	letter-spacing: 0px;
+}
+#lsi-secondary-header .social-image {
+    height: 17px;
+}
+#lsi-secondary-header a {
+	color: #ececea !important;
+}
+
+#lsi-secondary-header a:hover {
+	color: #ececea !important;
+}
+
+#lsi-secondary-header #sh-nav li {
+	background: rgba(255,255,255,0);
+}
+#lsi-secondary-header #sh-nav li:hover {
+    background: rgba(255, 255, 255, 0);
+}
+#lsi-secondary-header #sh-nav li a {
+	color: #ececea !important;
+}
+
+#lsi-secondary-header #sh-nav li:hover a {
+	color: #ececea !important;
+}
+@media (min-width: 967px) {
+    #lsi-transparent-header.active #lsi-outerheader {
+        background-image: none;
+    }
+    #lsi-transparent-header.active #lsi-header-navigation li.current-menu-item,
+    #lsi-transparent-header.active #lsi-header-navigation li.current-menu-ancestor,
+    #lsi-transparent-header.active #lsi-header-navigation li,
+    #lsi-transparent-header.active #lsi-header-navigation li:hover {
+        background-color: transparent;
+    }
+    #lsi-transparent-header.active #lsi-outerheader {
+    background-color: rgba(31,26,23,0.3);
+}
+
+#lsi-transparent-header.active #lsi-header-navigation ul ul {
+    background-color: rgba(31,26,23,0.5);
+}
+    #lsi-transparent-header.active #lsi-header-navigation li a,
+#lsi-transparent-header.active #lsi-toggleMenu {
+	color: #ececea;
+}
+
+#lsi-transparent-header.active #lsi-header-navigation li:hover a {
+    color: #c7c6c1;
+}
+
+#lsi-transparent-header.active #lsi-header-navigation li.current-menu-item a,
+#lsi-transparent-header.active #lsi-header-navigation li.current-menu-ancestor a {
+    color: #ececea;
+}
+
+#lsi-transparent-header.active #lsi-header-navigation ul ul li a,
+#lsi-transparent-header.active #lsi-header-navigation ul .mega-menu ul li,
+#lsi-transparent-header.active #lsi-header-navigation ul ul li.current-menu-item ul a,
+#lsi-transparent-header.active #lsi-header-navigation ul ul li.current-menu-ancestor ul a,
+#lsi-transparent-header.active #lsi-header-navigation ul ul li:hover ul a {
+    color: #ececea !important;
+}
+
+#lsi-transparent-header.active #lsi-header-navigation ul ul li:hover a,
+#lsi-transparent-header.active #lsi-header-navigation ul ul ul li:hover a,
+#lsi-transparent-header.active #lsi-header-navigation ul ul li:hover ul li:hover a {
+    color: #c7c6c1 !important;
+}
+
+#lsi-transparent-header.active #lsi-header-navigation ul ul li.current-menu-item a,
+#lsi-transparent-header.active #lsi-header-navigation ul ul li.current-menu-ancestor a,
+#lsi-transparent-header.active #lsi-header-navigation ul ul li.current-menu-ancestor ul li.current-menu-item a {
+    color: #ececea !important;
+}
+}
+/* Footer Style */
+
+#lsi-fs-content .lsi-footer-widget .lsi-footer-title {
+	font-family: 'Open Sans';
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 25px;
+	letter-spacing: 0px;
+	color: #1f1a17;
+	}
+
+#lsi-fs-content .lsi-footer-widget {
+	color: #615d51;
+}
+
+#lsi-fs-content .lsi-footer-widget a {
+	color: #4e4a3e;
+}
+
+#lsi-fs-content .lsi-footer-widget a:hover {
+	color: #615d51;
+}
+
+#lsi-footer, #lsi-bottom-footer-holder #lsi-menu-social-items-footer li {
+    background-color: #1f1a17 !important;
+}
+
+#lsi-bottom-footer {
+	padding: 40px 0 30px 0;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #ececea;
+}
+
+#lsi-bottom-footer a {
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #ececea;
+}
+
+#lsi-menu-social-footer a {
+	color: #ececea;
+}
+
+#lsi-bottom-footer a:hover,
+#lsi-menu-social-footer a:hover {
+	color: #ececea;
+}
+
+/* Colors */
+
+a,
+a:visited {
+    color: #4e4a3e;
+}
+a:hover,
+a:focus,
+a:active {
+    color: #615d51;
+}
+.lsi-blogger-post-excerpt,
+.lsi-blogger-post-side-border {
+    border-color: #4e4a3e !important;
+}
+/* Color 1 */
+
+.lsi-cta-cover,
+.lsi-cta-hover,
+.lsi-cta-hover h3,
+.lsi-cta-more,
+.lsi-iconbox .icon,
+#lsi-video-image .lsi-video-image-holder:before,
+.lsi-post-1-date,
+.lsi-cta-hover a,
+.fw-tabs-container,
+.lsi-tab-holder .nav > li > a,
+.lsi-toggle,
+.toggle .toggle-arrow:after,
+.toggle a,
+.highlight,
+.highlight-2,
+.lsi-blockquote-2,
+#respond .form-submit input,
+.schedule-icon-holder,
+.lsi-date-box,
+.wpcf7 input[type=submit],
+.page-numbers,
+a.page-numbers:hover,
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+    color: #ececea;
+}
+.lsi-btn,
+.lsi-cta-hover {
+    color: #ececea !important;
+}
+.lsi-btn-bw .lsi-btn-overlay,
+.lsi-flexslider .flexslider .flex-direction-nav a,
+.lsi-flexslider .flexslider .flex-direction-nav a:hover {
+    background-color: #ececea;
+}
+.lsi-cta-col-frame-line .lsi-cta-hover::before,
+.lsi-cta-col-frame-line .lsi-cta-hover::after {
+    border-color: #ececea;
+}
+/* Color 2 */
+
+.lsi-iconbox .desc p,
+.lsi-separator-normal,
+.lsi-separator-small {
+    color: #8f8f83;
+}
+/* Color 3 */
+
+.lsi-iconbox .name,
+.lsi-post-tags a,
+.lsi-cta-hover,
+.lsi-post-single-title,
+a.page-numbers {
+    color: #1f1a17;
+}
+.lsi-btn-bw:hover {
+    color: #1f1a17 !important;
+}
+#lsi-video-image .lsi-video-image-holder:after,
+.lsi-btn-bw,
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+    background-color: #1f1a17;
+}
+.lsi-flexslider .flexslider .flex-direction-nav a,
+.fw-table table > thead > tr > th,
+.fw-table table > tbody > tr > th,
+.fw-table table > tfoot > tr > th,
+.fw-table table > thead > tr > td,
+.fw-table table > tbody > tr > td,
+.fw-table table > tfoot > tr > td {
+    border-color: #1f1a17;
+}
+.lsi-cta-cover {
+    text-shadow: 1px 1px 1px #1f1a17;
+}
+a.page-numbers {
+    box-shadow: 0 0 0 2px #1f1a17 inset;
+}
+/* Color 4 */
+
+.lsi-cta-more:hover,
+.lsi-cta-hover a:hover {
+    color: rgba(78,74,62, 0.25);
+}
+.lsi-iconbox,
+.lsi-bfah .lsi-article-container,
+.lsi-bfah-title-holder-bg,
+.panel,
+.fw-table,
+.cal-row-fluid.cal-row-head [class*="cal-cell"],
+.cal-year-box [class*="span"],
+.cal-month-box [class*="cal-cell"],
+.cal-week-box,
+#cal-day-box {
+    background-color: rgba(78,74,62, 0.25);
+}
+/* Color 5 */
+
+.lsi-tab-holder .nav-tabs > li.ui-tabs-active > a,
+.lsi-tab-holder .nav-tabs > li.ui-tabs-active > a:hover,
+.lsi-tab-holder .nav-tabs > li.ui-tabs-active > a:focus,
+.toggle .active a,
+.toggle:hover a,
+.toggle a:hover,
+.toggle a:focus,
+.toggle a:active {
+    color: rgba(78,74,62, 0.45);
+}
+.lsi-tab-holder .nav > li > a:hover {
+    color: rgba(78,74,62, 0.45) !important;
+}
+.lsi-iconbox-overlay,
+.lsi-btn-inverse .lsi-btn-overlay {
+    background-color: rgba(78,74,62, 0.45);
+}
+.lsi-tab-holder .nav-tabs > li.ui-tabs-active > a,
+.lsi-tab-holder .nav-tabs > li.ui-tabs-active > a:hover,
+.lsi-tab-holder .nav-tabs > li.ui-tabs-active > a:focus,
+.toggle .active a {
+    border-color: rgba(78,74,62, 0.45) !important;
+}
+/* Color 6 */
+
+.lsi-post-1-content,
+.highlight,
+.lsi-btn-inverse,
+.lsi-prod-cat-content {
+    background-color: rgba(78,74,62, 0.65);
+}
+/* Color 7 */
+
+.fw-table tbody .desc-col {
+    background-color: #aba99c;
+}
+/* Color 8 */
+
+.lsi-imagebox .name,
+.lsi-post-tags a:hover {
+    color: #615d51;
+}
+.lsi-iconbox .icon,
+#lsi-video-image:hover .lsi-video-image-holder:before,
+.small-thumb-holder .small-thumb-overlay:before,
+.lsi-btn-basic:hover,
+#respond .form-submit input:hover,
+.lsi-btn-overlay,
+.fw-table thead {
+    background-color: #615d51;
+}
+.lsi-imagebox .image,
+.lsi-blockquote-2-holder,
+.lsi-blockquote-1,
+.lsi-flexslider .flexslider,
+.lsi-spih,
+.iframe-holder {
+    border-color: #615d51;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    box-shadow: 0 0 0 6px #615d51 inset;
+}
+/* Color 9 */
+
+.lsi-map-contacts .title,
+.lsi-heading,
+#lsi-owl-quote .lsi-quote-image i,
+.lsi-map-view .show-title,
+.fw-shortcode-calendar-wrapper .page-header h3 {
+    color: #4e4a3e;
+}
+.lsi-post-1-date,
+.fw-tabs-container,
+.lsi-toggle,
+.highlight-2,
+.lsi-btn-basic,
+.lsi-btn-custom,
+.lsi-blockquote-2,
+#respond .form-submit input,
+.schedule-icon-holder,
+.lsi-date-box,
+.wpcf7 input[type=submit]:hover,
+.wpcf7 input[type=submit],
+.lsi-owl-navigation-normal-2 .owl-prev,
+.lsi-owl-navigation-normal-2 .owl-next {
+    background-color: #4e4a3e;
+}
+.lsi-map-contacts .title,
+.lsi-map-view .show-title,
+#lsi-owl-quote .lsi-quote-author-image,
+.lsi-tab-holder,
+.lsi-toggle-holder {
+    border-color: #4e4a3e;
+}
+.page-numbers {
+    box-shadow: 0 0 0 20px #4e4a3e inset;
+}
+a.page-numbers:hover {
+    box-shadow: 0 0 0 20px #4e4a3e inset;
+}
+/* Mixed */
+
+.lsi-cta-layer {
+    background: #1f1a17;
+	background: -webkit-radial-gradient(circle, #ececea, #8f8f83, #1f1a17);
+	background: -o-radial-gradient(circle, #ececea, #8f8f83, #1f1a17);
+	background: -moz-radial-gradient(circle, #ececea, #8f8f83, #1f1a17);
+    background: radial-gradient(circle, #ececea, #8f8f83, #1f1a17);
+}
+
+.lsi-cta-layer-2 {
+    background: #4e4a3e;
+	background: -webkit-radial-gradient(circle, #aba99c 25%, #615d51 65%, #4e4a3e 100%);
+	background: -o-radial-gradient(circle, #aba99c 25%, #615d51 65%, #4e4a3e 100%);
+	background: -moz-radial-gradient(circle, #aba99c 25%, #615d51 65%, #4e4a3e 100%);
+    background: radial-gradient(circle, #aba99c 25%, #615d51 65%, #4e4a3e 100%);
+}
+/* Font Styles */
+
+body {
+	font-family: 'Hind';
+	font-size: 15px;
+	font-weight: 300;
+	color: #615d51;
+	letter-spacing: -0.5px;
+	}
+
+h1 {
+	font-family: 'Open Sans';
+	font-size: 60px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	}
+
+h2 {
+	font-family: 'Open Sans';
+	font-size: 45px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	}
+
+h3 {
+	font-family: 'Open Sans';
+	font-size: 35px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	}
+
+h4 {
+	font-family: 'Open Sans';
+	font-size: 25px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	}
+
+h5 {
+	font-family: 'Open Sans';
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	}
+
+h6 {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	}
+@media (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    h6 {
+        font-size: 18px;
+    }
+}
+.lsi-btn,
+#respond .form-submit input,
+.wpcf7 input[type=submit],
+button,
+.btn {
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+.lsi-post-single-title,
+.post-navigation-title,
+lsi-dropcap,
+.lsi-post-tags,
+.lsi-category-list,
+#lsi-owl-quote .lsi-quote-content,
+.lsi-heading-font-1 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+.lsi-ps-categories a,
+.tagcloud a,
+.lsi-price-description,
+#lsi-owl-quote .lsi-quote-author-position,
+.lsi-heading-font-2 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+/* Slider Styles */
+
+
+.wrap-nivoslider.theme-default .nivo-directionNav a {
+	font-size: 40px;
+	color: rgba(236,236,234,0.75);
+}
+
+.wrap-nivoslider.theme-default .nivo-directionNav a:hover {
+	color: #ececea;
+}
+
+.wrap-nivoslider.theme-default .nivo-controlNav a {
+	box-shadow: 0 0 0 2px #ececea inset;
+}
+
+.wrap-nivoslider.theme-default .nivo-controlNav a.active,
+.wrap-nivoslider.theme-default .nivo-controlNav a:hover {
+    box-shadow: 0 0 0 30px #ececea inset;
+}
+
+#lsi-slider-ta {
+	background: rgba(0,0,0,0);
+}
+
+#lsi-slider-ta .lsi-sta-title {
+	padding: 10px 5px;
+	font-family: 'Open Sans';
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 40px;
+	color: #ececea !important;
+	letter-spacing: 5px;
+	text-shadow: -1px 2px 1px #4e4a3e;}
+
+#lsi-slider-ta .lsi-sta-subtitle {
+	padding: 10px 5px;
+	font-family: 'Open Sans';
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 50px;
+	color: #ececea !important;
+	letter-spacing: 3px;
+	text-shadow: -1px 0 1px #4e4a3e;}
+
+#lsi-slider-ta .lsi-sta-text {
+	padding: 10px 5px;
+	font-family: 'Open Sans';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #ececea !important;
+	letter-spacing: 0px;
+	text-shadow: -1px 1px 1px #4e4a3e;}
+
+#lsi-slider-ta .lsi-sta-buttons {
+	padding: 10px 0;
+}
+
+#lsi-slider-ta .lsi-sta-button-1,
+#lsi-slider-ta .lsi-sta-button-2 {
+	padding: 10px 20px;
+	margin: 10px 5px;
+}
+
+#lsi-slider-ta .lsi-sta-button-1 {
+	font-family: 'Open Sans';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #ececea !important;
+	letter-spacing: 0px;
+	background: #4e4a3e;
+	border-radius: 2px;
+}
+
+#lsi-slider-ta .lsi-sta-button-1:hover {
+	color: #ececea !important;
+	background: #4e4a3e;
+}
+
+#lsi-slider-ta .lsi-sta-button-2 {
+	font-family: 'Open Sans';
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #4e4a3e !important;
+	letter-spacing: 0px;
+	background: #ececea;
+	border-radius: 2px;
+}
+
+#lsi-slider-ta .lsi-sta-button-2:hover {
+	color: #ececea !important;
+	background: #4e4a3e;
+}
+
+@media screen and (max-width: 1200px) {
+
+#lsi-slider-ta .lsi-sta-title {
+		padding: 10px 0 10px 0;
+	font-size: 40px;
+	line-height: 35px;
+}
+
+#lsi-slider-ta .lsi-sta-subtitle {
+		padding: 10px 0 10px 0;
+	font-size: 32px;
+	line-height: 25px;
+}
+
+#lsi-slider-ta .lsi-sta-text {
+	display: none !important;	padding: 10px 0 10px 0;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+#lsi-slider-ta .lsi-sta-title {
+		padding: 10px 0 10px 0;
+	font-size: 30px;
+	line-height: 25px;
+}
+
+#lsi-slider-ta .lsi-sta-subtitle {
+		padding: 10px 0 10px 0;
+	font-size: 22px;
+	line-height: 15px;
+}
+
+#lsi-slider-ta .lsi-sta-text {
+	display: none !important;	padding: 10px 0 10px 0;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+}
+
+@media screen and (max-width: 450px) {
+#lsi-slider-tah {
+	display: none !important;
+}
+
+#lsi-slider-ta .lsi-sta-title {
+	display: none !important;	padding: 10px 0 10px 0;
+	font-size: 30px;
+	line-height: 25px;
+}
+
+#lsi-slider-ta .lsi-sta-subtitle {
+	display: none !important;	padding: 10px 0 10px 0;
+	font-size: 22px;
+	line-height: 15px;
+}
+
+#lsi-slider-ta .lsi-sta-text {
+	display: none !important;	padding: 10px 0 10px 0;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+#lsi-slider-ta .lsi-sta-buttons {
+	display: none !important;
+}
+}
+@media (min-width: 967px) {
+    body.lsi-body-th {
+        padding-top: 0 !important;
+    }
+    #lsi-transparent-header.active {
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+    #lsi-transparent-header.active #lsi-outerheader {
+        background-image: none;
+    }
+    #lsi-transparent-header.active #lsi-header-navigation li.current-menu-item,
+    #lsi-transparent-header.active #lsi-header-navigation li.current-menu-ancestor,
+    #lsi-transparent-header.active #lsi-header-navigation li,
+    #lsi-transparent-header.active #lsi-header-navigation li:hover {
+        background-color: transparent;
+    }
+}
+@media (max-width: 967px) {
+    #lsi-header #lsi-logo {
+        display: table-caption !important;
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    #lsi-header #lsi-header-menus {
+        width: inherit;
+    }
+    #lsi-header,
+    #lsi-header #lsi-logo img {
+        margin: auto;
+        padding: 0 15px;
+    }
+    #lsi-toggleMenu {
+        display: block !important;
+    }
+    #lsi-header #lsi-header-navigation {
+        display: none;
+    }
+    #lsi-outersecondaryheader {
+        display: none !important;
+    }
+}
+.lsi-spih,
+.lsi-blockquote-2-holder,
+.attachment-lakshmi-entry-image,
+.single-post-image,
+.flexslider,
+.iframe-holder,
+#lsi-blog-news-content .entry-image img {
+    border-radius: 0;
+}
+.flexslider {
+    border: none !important;
+}
+.lsi-iconbox,
+.lsi-iconbox-overlay {
+    background-color: transparent !important;
+}
+.lsi-cta-cover {
+    text-shadow: none !important;
+}
+.fw-table table .heading-row, .fw-table tbody .desc-col, .fw-shortcode-calendar a.cal-event-week, #cal-day-box .day-highlight .event-item, .lsi-tab-holder .nav-tabs li.ui-tabs-active a, .lsi-tab-holder .nav-tabs li a:hover h4, .toggle .active a, .toggle:hover a, .toggle a:hover, .toggle a:focus, .toggle a:active, .lsi-event-infos a:hover, .lsi-post-2-date {
+    color: #ececea !important;
+}
